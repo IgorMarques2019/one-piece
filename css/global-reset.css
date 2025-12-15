@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+h1,
+h2,
+h3,
+button {
+  font-family: 'Poppins';
+}
+
+* {
+  font-family: 'Arial';
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 0 20px;
+}
+
+ul {
+  list-style: none;
+  list-style-position: inside;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  pointer-events: none;
+}
+
+button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+button#orange-btn {
+  background-color: orangered;
+  border: none;
+  color:rgb(34, 19, 1);
+  font-weight:500;
+}

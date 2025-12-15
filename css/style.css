@@ -1,0 +1,32 @@
+@import url("global-reset.css");
+@import url("global-header.css");
+@import url("home-hero.css");
+
+
+
+.galeria-swipper .swiper-slide img {
+  aspect-ratio: 16/4;
+  object-fit: cover;
+  border-radius:10px;
+}
+
+
+
+#carrossel {
+  padding-top: 20px;
+  background-color: #020202;
+}
+
+
+.swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 6px;
+  border-radius: 0;
+  background-color: #ffffff !important;
+  transition: width .5s;
+  opacity:1;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: orangered !important;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>One Piece</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+  <header aria-label="Cabeçalho do site">
+    <div class="container">
+      <h2>AniFãs</h2>
+      <label id="menu-burguer">
+        <input type="checkbox" name="" id="">
+        <i class="fa-solid fa-bars open"></i>
+        <i class="fa-solid fa-xmark close"></i>
+      </label>
+      <nav aria-label="Navegação primária">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a id="contato" href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section id="carrossel">
+    <div class="container">
+      <div class="swiper galeria-swipper">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="https://i.redd.it/nlqv2vi4fi171.png" alt=""></div>
+          <div class="swiper-slide"><img src="https://images2.alphacoders.com/139/1394519.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="https://wallpapers-clan.com/wp-content/uploads/2025/06/one-piece-luffy-fashionable-pirate-desktop-wallpaper-preview.jpg" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="Seção destaque" id="s-hero">
+    <div class="container">
+      <div class="left">
+        <h1>One Piece está chegando ao fim!</h1>
+        <p>O fim de One Piece não é só o fim de um anime. É o fechamento de uma jornada gigante, construída com paciência, dor, risadas e liberdade. O tesouro sempre foi importante, mas o caminho até ele foi o que realmente marcou.</p>
+        <p>Quando Luffy chegar ao final, não será só sobre achar o One Piece. Será sobre provar que valeu a pena confiar, lutar e seguir em frente mesmo quando tudo parecia perdido. Cada tripulante teve um sonho. E todos caminharam juntos.</p>
+        <p>O mundo de One Piece também muda com esse fim. Segredos vêm à tona, mentiras caem e o verdadeiro significado de liberdade aparece. Não é um final feliz simples. É um final justo.</p>
+        <p>Vai doer acabar. Vai dar vazio. Mas também vai dar orgulho. One Piece termina, mas deixa algo raro: a sensação de ter vivido uma grande aventura do começo ao fim.</p>
+        <button id="orange-btn">Leia Mais <i class="fa-solid fa-paper-plane"></i></button>
+      </div>
+      <div class="right">
+        <img class="hero-img-1" src="https://www.animationmagazine.net/wordpress/wp-content/uploads/One-Piece-G5.jpg" alt="Luffy">
+        <img class="hero-img-2" src="https://pnganime.com/images/download/luffy-gear-5-colored-transparent-png" alt="Luffy">
+      </div>
+    </div>
+  </section>
+
+  <script>
+    var swiper = new Swiper(".galeria-swipper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      effect: 'coverflow',
+      autoplay: true,
+    });
+  </script>
+</body>
+
+</html>
